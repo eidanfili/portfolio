@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom';
 
 class ContHButton extends Component {
     render() {
-        const { to, buttonText } = this.props;
+        const { to, buttonText, href } = this.props;
         return(
             <div>
-                <Link to={to} className="cardh__button">{buttonText}</Link>
-                <a href="https://www.instagram.com/eidanledezma/"></a>
+                <a href={href} className="cardh__button">{buttonText}</a>
             </div>
         )
     }

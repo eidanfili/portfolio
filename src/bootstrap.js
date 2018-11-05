@@ -15,7 +15,6 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import About from './components/about/about';
 import ContactEmail from './components/contact/contact-email';
-import ContactInsta from './components/contact/contact-insta';
 
 
 function main() {
@@ -26,7 +25,6 @@ function main() {
           <Route path="/" exact component={App} />
           <Route path="/projects" component={Projects}/>
           <Route path="/contact/email" component={ContactEmail}/>
-          <Route path="/contact/instagram" component={ContactInsta} />
           <Route path="/contact" component={Contact} />
           <Route path="/contact" component={Contact} />
           <Route path="/contact" component={Contact} />

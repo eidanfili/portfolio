@@ -92,6 +92,9 @@
             color: $color-white;
             text-align: center;
             font-size: 28px;
+            &:hover{
+                color: $color-grey;
+            }
         }
         &-left{
             justify-self: end;
@@ -106,6 +109,9 @@
             text-align: center;
             font-size: 28px;
             color: $color-white;
+            &:hover{
+                color: $color-grey;
+            }
         }
     }
 }
