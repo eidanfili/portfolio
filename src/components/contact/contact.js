@@ -3,6 +3,7 @@ import Header from '../header';
 import ContCard from './contactCard';
 import { Link } from 'react-router-dom';
 import ContCardHome from './contCardHome';
+import Footer from '../footer';
 
 class Contact extends Component {
     render() {
@@ -19,6 +20,7 @@ class Contact extends Component {
                     </div>
 
                 </div>
+                <Footer/>
             </div>
         )
     }

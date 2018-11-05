@@ -1,16 +1,6 @@
-.HomePage {
-    height: 400px;
-    background-color: #8B8C7A;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    z-index: 10;
-
-    &__content {
-        color: rgb(226, 226, 226);
-        font-size: 26px;
-        font-family: $font-Sans;
-        font-weight: 300px;
-        padding: 20px 50px;
+.app{
+    &__content{
+        height: 90vh;
+        width: 100%;
     }
 }

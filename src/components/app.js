@@ -9,6 +9,10 @@ export default class App extends Component {
       <div className='app'>
           <Video />
           <Header />
+          <div className="app__content">
+            hi
+          </div>
+          <Footer />
       </div>
     );
   }
