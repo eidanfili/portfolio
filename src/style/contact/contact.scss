@@ -1,0 +1,139 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.card-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    align-content: center;
+     
+}
+.card {
+    grid-row: 1/-1;
+    grid-column: 2/3;
+    height: 45%;
+    width: 60%;
+    margin: 50px;
+    display: grid;
+    grid-template: 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    
+    align-self: center;
+    &__label {
+        grid-row: 1/2;
+        color: $color-blue;
+        font-size: 30px;
+        text-align: center;
+    }
+    &__labels {
+        grid-row: 1/2;
+        color: $color-red;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    &__input {
+        border-radius: 5px;
+        text-align: center;
+        height: 40px;
+        width: 60%;
+        color: $color-red;
+        margin: 20px;
+        box-shadow: none;
+        border: 2px solid $color-red-st;
+        background-color: $color-blue-st;
+
+        &::placeholder {
+            color: $color-red-st;
+            font-size: 20px;
+
+        }
+    }
+    &__button {
+        height: 45px;
+        width: 45%;
+        border-radius: 5px;
+        border: none;
+        background-color: $color-gold;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        &-right {
+            justify-self: start;
+            align-self: center; 
+            grid-column: 3/4; 
+            background-color: $color-blue;
+            height: 45px;
+            width: auto;
+            border-radius: 5px;
+            border: none;
+            color: $color-white;
+            text-align: center;
+            font-size: 28px;
+        }
+        &-left{
+            justify-self: end;
+            align-self: center;
+            grid-row: 1/-1;
+            grid-column: 1/2;
+            background-color: $color-blue;
+            height: 45px;
+            width: auto;
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+            font-size: 28px;
+            color: $color-white;
+        }
+    }
+}
+
+
+.card-home{
+    grid-row: 1/-1;
+    grid-column: 2/3;
+    height: 45%;
+    width: 90%;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-white;
+    border-radius: 5px;
+
+}
+.cardh{
+    &__button{
+        height: 45px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        margin: 20px;
+        background-color: $color-red-st;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+
+    }
+    &__labels{
+        color: $color-red;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        border-bottom: 2px solid $color-red;
+    }
+}
+
+.cardflex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}

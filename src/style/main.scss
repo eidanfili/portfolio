@@ -1,0 +1,49 @@
+@import 'variables';
+@import '/header/header';
+@import 'title';
+@import '/background/parallax';
+@import '/background/video';
+@import '/background/backpic';
+@import '/footer/footer';
+@import '/footer/footer-links';
+@import 'header/header-link';
+@import 'about/about';
+@import 'projects/projects';
+@import 'contact/contact';
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: $font-Sans;
+    word-spacing: 2px;
+    font-size: 100%;
+}
+
+a{
+    color: $color-blue;
+    text-decoration: none;
+    &:hover {
+        color: $color-blue;
+        text-decoration: none;
+    }
+}
+
+.backpic{
+    background-image: url(/assets/backpic2.jpg);
+    height: 145vh;
+    width: 100vw;
+}
+
+.bar{
+    width: 85%;
+    height: 2px;
+    border: 2px solid $color-blue;
+    align-self: center;
+    justify-self: center;
+}
+
+.title {
+    grid-column: 1/-1;
+    align-self: center;
+    justify-self: center;
+}
