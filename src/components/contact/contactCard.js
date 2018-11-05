@@ -6,11 +6,10 @@ class ContCard extends Component {
     render() {
         const { title, to, buttonText } = this.props;
         return(
-            <form className={` ${title} card`}>
+            <form action="mailto:eidan@eidanfili.org" method="post" enctype="text/plain" className={` ${title} card`}>
                 <label className="card__labels">{title}</label>
-                <input type="text"placeholder="Your Email" className="card__input"/>
-                <input type="text" placeholder="Message" className="card__input" />
-                <Link to={to}  className="card__button">{buttonText}</Link>
+                <input type="text" name="message" placeholder="Message" className="card__inputs" />
+                <input type="submit" value="send" className="card__button"/>
                 
             </form>
         )

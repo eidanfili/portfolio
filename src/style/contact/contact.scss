@@ -43,7 +43,24 @@
         height: 40px;
         width: 60%;
         color: $color-red;
-        margin: 20px;
+        margin: 15px;
+        box-shadow: none;
+        border: 2px solid $color-red-st;
+        background-color: $color-blue-st;
+
+        &::placeholder {
+            color: $color-red-st;
+            font-size: 20px;
+
+        }
+    }
+    &__inputs {
+        border-radius: 5px;
+        text-align: center;
+        height: 85px;
+        width: 75%;
+        color: $color-red;
+        margin: 15px;
         box-shadow: none;
         border: 2px solid $color-red-st;
         background-color: $color-blue-st;

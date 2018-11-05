@@ -13,7 +13,7 @@ class ContCard extends Component {
                     <ContHButton to="/contact/instagram" buttonText="instagram"/>
                     <ContHButton to="/contact/github" buttonText="github" />
                     <ContHButton to="/contact/facebook" buttonText="facebook" />
-                    <ContHButton to="/contact/text" buttonText="text" />
+                    <ContHButton to="/contact/email" buttonText="email" />
                 </div>
                 
             </form>
