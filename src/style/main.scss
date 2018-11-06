@@ -21,7 +21,7 @@ body {
 }
 
 a {
-    color: $color-blue;
+    color: $color-blue !important;
     text-decoration: none;
     &:hover {
         color: $color-blue;
