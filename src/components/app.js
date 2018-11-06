@@ -12,8 +12,8 @@ export default class App extends Component {
           <div className="app__content">
             <div className="app__content__text">
             Hi I'm Eidan Ledezma a junior react and python developer
-              
             </div>
+          <div className="app__content__redbox"></div>
           </div>
           <Footer />
       </div>
