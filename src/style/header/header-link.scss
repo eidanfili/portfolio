@@ -56,6 +56,12 @@
         transform: rotateY(180deg);
         color: $color-blue;
         font-size: 1.7em;
+        color: $color-blue;
+        text-decoration: none;
+        &:hover {
+        color: $color-blue;
+        text-decoration: none;
+    }
     }
 
     &:hover {
