@@ -22,10 +22,10 @@ body {
 
 a {
     color: $color-blue !important;
-    text-decoration: none;
+    text-decoration: none !important;
     &:hover {
-        color: $color-blue;
-        text-decoration: none;
+        color: $color-blue !important;
+    text-decoration: none !important;
     }
 }
 
