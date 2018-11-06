@@ -59,6 +59,7 @@
     }
 
     &:hover {
+        border-bottom: 2px solid $color-red;
         .header-link {
             &__title {
                 opacity: 0;

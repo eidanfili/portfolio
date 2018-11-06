@@ -14,7 +14,7 @@ class Contact extends Component {
                     <h2 className="card__label">Contact Me</h2>
                     <div className="bar"></div>
                     <div className="card-container">
-                        <Link to="/contact/instagram" className="card__button-right" >Instagram</Link>
+                        <Link to="/contact/other" className="card__button-right" >Other</Link>
                         <Link to="/contact/email" className="card__button-left" >Email</Link>
                         <ContCardHome title="Social Medias" buttonText="send it" to="/contact/email"/>
                     </div>

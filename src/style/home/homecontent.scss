@@ -2,5 +2,20 @@
     &__content{
         height: 90vh;
         width: 100%;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        &__text {
+            height: 50px;
+            width: 800px;
+            align-self: center;
+            justify-self: center; 
+            color: $color-white;
+            font-size: 25px;
+            text-align: center;
+            font-weight: 300;
+            box-shadow: 5px 10px $color-red;
+            background-color: $color-blue-st;
+        }
     }
 }

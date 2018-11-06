@@ -10,7 +10,10 @@ export default class App extends Component {
           <Video />
           <Header />
           <div className="app__content">
-            hi
+            <div className="app__content__text">
+            Hi I'm Eidan Ledezma a junior react and python developer
+              
+            </div>
           </div>
           <Footer />
       </div>
