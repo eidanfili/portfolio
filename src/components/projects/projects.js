@@ -13,10 +13,10 @@ class Projects extends Component {
                     <h2 className="label">Projects</h2>
                     <div className="bar"></div>
                     <div className="projects__container">
-                        <ProjectComponent icon="fas fa-arrow-circle-right" imgURL="/assets/projects/Capture.png" content="lkdajshfpiue4h"/>
-                        <ProjectComponent icon="fas fa-arrow-circle-right"imgURL="/assets/projects/sensuous-sandwich.png" content="lkdajshfpiue4h" />
-                        <ProjectComponent icon="fas fa-arrow-circle-right"imgURL="/assets/projects/Propman.png" content="lkdajshfpiue4h" />
-                        <ProjectComponent icon="fas fa-arrow-circle-right" imgURL="/assets/projects/Propman.png" content="hi this is my property management app click the icon to visit the page!"/>
+                        <ProjectComponent href="https://bottegamadlibs.herokuapp.com/" icon="fas fa-arrow-circle-right" imgURL="/assets/projects/Capture.png" content="lkdajshfpiue4h"/>
+                        <ProjectComponent href="https://twitter.com/EidanLedezma?lang=en" icon="fas fa-arrow-circle-right"imgURL="/assets/projects/sensuous-sandwich.png" content="lkdajshfpiue4h" />
+                        <ProjectComponent href="https://twitter.com/EidanLedezma?lang=en" icon="fas fa-arrow-circle-right"imgURL="/assets/projects/Propman.png" content="lkdajshfpiue4h" />
+                        <ProjectComponent href="https://twitter.com/EidanLedezma?lang=en" icon="fas fa-arrow-circle-right" imgURL="/assets/projects/Propman.png" content="hi this is my property management app click the icon to visit the page!"/>
                     </div>
                 </div>
                 <Footer />
