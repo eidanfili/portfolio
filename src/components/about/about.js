@@ -10,7 +10,7 @@ class About extends Component {
         return (
             <div>
                 <Header />
-                <div className="about">
+                <div className="about backpic">
                     <h2 className="about__label">About Me</h2>
                     <div className="bar about__bar"></div>
                     <div className="about__right">
