@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class AboutComponentLeft extends Component {
+class AboutComponent extends Component {
     render() {
         const { imgURL, content } = this.props;
         return (
@@ -16,4 +16,4 @@ class AboutComponentLeft extends Component {
         )
     }
 }
-export default AboutComponentLeft;
+export default AboutComponent;

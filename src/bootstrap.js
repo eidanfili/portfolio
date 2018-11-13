@@ -13,9 +13,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
-import About from './components/about/about';
 import ContactEmail from './components/contact/contact-email';
 import ContactOther from './components/contact/contact-other';
+import About from './components/about/about';
 
 
 function main() {

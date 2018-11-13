@@ -22,6 +22,7 @@
     grid-template-columns: 1fr;
     align-content: center;
     justify-items: center;
+    background-color: white;
     
     align-self: center;
     &__label {
@@ -31,6 +32,13 @@
         text-align: center;
     }
     &__labels {
+        grid-row: 1/2;
+        color: white;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    &__labele {
         grid-row: 1/2;
         color: $color-red;
         font-weight: 500;
@@ -49,8 +57,8 @@
         background-color: $color-blue-st;
 
         &::placeholder {
-            color: $color-red-st;
-            font-size: 20px;
+            color: white;
+            font-size: 22px;
 
         }
     }
@@ -59,15 +67,15 @@
         text-align: center;
         height: 85px;
         width: 75%;
-        color: $color-red;
+        color: white;
         margin: 15px;
         box-shadow: none;
         border: 2px solid $color-red-st;
         background-color: $color-blue-st;
 
         &::placeholder {
-            color: $color-red-st;
-            font-size: 20px;
+            color: white;
+            font-size: 22px;
 
         }
     }
@@ -77,7 +85,7 @@
         border-radius: 5px;
         border: none;
         background-color: $color-gold;
-        color: white;
+        color: white !important;
         text-align: center;
         font-size: 28px;
         &-right {
@@ -89,11 +97,11 @@
             width: auto;
             border-radius: 5px;
             border: none;
-            color: $color-white;
+            color: white !important;
             text-align: center;
             font-size: 28px;
             &:hover{
-                color: $color-grey;
+                color: $color-grey !important;
             }
         }
         &-left{
@@ -108,9 +116,9 @@
             border: none;
             text-align: center;
             font-size: 28px;
-            color: $color-white;
+            color: white !important;
             &:hover{
-                color: $color-grey;
+            color: $color-grey !important;
             }
         }
     }
@@ -125,25 +133,24 @@
     margin: 50px;
     justify-content: center;
     align-items: center;
-    background-color: $color-white;
+    background-color: $color-grey;
     border-radius: 5px;
 
 }
 .cardh{
     &__button{
-        height: 45px;
         width: 100%;
         border-radius: 5px;
         border: none;
         margin: 20px;
-        background-color: $color-red-st;
-        color: white;
+        color: white !important;
         text-align: center;
-        font-size: 25px;
+        font-size: 40px;
+        font-weight: 300;
 
     }
     &__labels{
-        color: $color-red;
+        color: white;
         font-weight: 500;
         font-size: 30px;
         text-align: center;

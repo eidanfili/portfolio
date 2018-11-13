@@ -16,7 +16,7 @@ class ContactOther extends Component {
                         <Link to="/contact/other" className="card__button-right" >Other</Link>
                         <Link to="/contact/email" className="card__button-left" >Email</Link>
                         <form  className="card">
-                            <label className="card__labels">This page is not Currently available</label>
+                            <label className="card__labele">This page is not Currently available</label>
                             <Link to="/contact" className="card__button">back</Link>
 
                         </form>

@@ -34,6 +34,7 @@
         justify-content: flex-start;
         justify-content: space-around;
         align-items: center;
+        padding-bottom: 10px;
     }
     &__left {
         grid-column: 1/2;
@@ -44,6 +45,7 @@
         justify-content: flex-end;
         justify-content: space-around;
         align-items: flex-end;
+        padding-bottom: 15px;
     }
     &-component{
         &-right{
@@ -62,25 +64,41 @@
         }
         &-left {
             border-radius: 5px;
-            display: flex;
-            justify-content: flex-end;
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
             align-items: center;
-            width: 75%;
+            justify-content: center;
+            
+            & > * {
+                grid-row: 1/-1;
+                grid-column: 1/-1;
+            }
 
-            background-color: $color-grey;
             &-text {
-                    margin: 10px;
-                    width: 350px;
+                    width: 370px;
+                    height: 250px;
                     text-align: center;
                     justify-content: center;
+                    opacity: 0;
+                    z-index: 10;
+                    background-color: $color-blue-st;
+                    border-radius: 4px;
+                    color: white;
+                    font-size: 15px;
                }
+            &:hover{
+                .about-component-left-text{
+                    opacity: 1;
+                }
+            }
         }
     }
 }
 
 .imageAbout {
-    height: 180px;
-    width: 250px;
+    height: 250px;
+    width: 370px;
     img {
         height: 100%;
         width: 100%;

@@ -47,7 +47,7 @@
         grid-template-rows: 1fr 30px;
         
         
-        background-color: rgba(107, 45, 41, 0.8);
+        background-color: $color-blue-st;
         color: $color-white;
         border-radius: 5px;
     }
@@ -57,9 +57,9 @@
     }
     &:hover{
         transition: all 0.3s ease;
-        // height: 340px;
-        // width: 620px;
-        transform: translateY(-50px);
+        height: 340px;
+        width: 620px;
+        transform: translateY(-20px);
         // flex-grow: 1.2;
         .project-component__text{
             opacity: 1;
