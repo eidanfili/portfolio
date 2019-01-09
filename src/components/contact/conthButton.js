@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 
 class ContHButton extends Component {
     render() {
-        const { href, logo } = this.props;
+        const { href, logo, text } = this.props;
         return(
-            <div>
-                <a href={href} className="cardh__button">
+            <div className="cardh__button__icons">
+                <a target="_blank" href={href} className="cardh__button">
                     <i className={logo}></i>
                 </a>
+                <div className="iconText">{text}</div>
             </div>
         )
     }

@@ -6,13 +6,13 @@
     
     display: grid;
     grid-template-columns: 250px 3.5fr 1fr;
-    height: 80px;
+    height: 66px;
     background-color: $color-white;
     z-index: 10;
 
     &__logo {
-    height: 150px;
-    width: 150px;
+    height: 80px;
+    width: 80px;
     grid-column: 1/2;
     margin-top: -50px;
 

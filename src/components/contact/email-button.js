@@ -6,7 +6,7 @@ export class EmailButton extends Component {
     render() {
         const { to, logo } = this.props;
         return (
-            <div >
+            <div className="icons">
                 <Link to={to} className="cardh__button"><i className={logo}></i></Link>
             </div>
         )

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './header';
 import Video from './video';
 import Footer from './footer';
+import ContentMain from './contentmain';
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
             </div>
           <div className="app__content__redbox"></div>
           </div>
+          <ContentMain />
           <Footer />
       </div>
     );

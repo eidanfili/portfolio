@@ -5,7 +5,7 @@ class Header extends Component {
     render() {
         return(
             <div className="header">
-                <img className="header__logo" src="\assets\postefl.png"/>
+                <img className="header__logo" src="\assets\reactpic.png"/>
                 <Links />
             </div>
         )

@@ -14,7 +14,7 @@ class ContactEmail extends Component {
                     <div className="bar"></div>
                     <div className="card-container">
                         <Link to="/contact/other" className="card__button-right" >Other</Link>
-                        <Link to="/contact/email" className="card__button-left" >Email</Link>
+                        <Link to="/contact" className="card__button-left" >Back</Link>
                         <ContCard title="Email Me" to="/contact" />
                     </div>
 

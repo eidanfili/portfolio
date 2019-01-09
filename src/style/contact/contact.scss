@@ -133,24 +133,31 @@
     margin: 50px;
     justify-content: center;
     align-items: center;
-    background-color: $color-grey;
+    background-color: white;
     border-radius: 5px;
 
 }
 .cardh{
     &__button{
-        width: 100%;
+        height: 50px;
         border-radius: 5px;
         border: none;
         margin: 20px;
-        color: white !important;
+        color: $color-blue !important;
         text-align: center;
         font-size: 40px;
         font-weight: 300;
-
+        transition: all 0.2s ease;
+        &:hover{
+            color: $color-red !important;
+            font-size: 50px;
+            .iconText{
+                opacity: 1;
+            }
+        }
     }
     &__labels{
-        color: white;
+        color: $color-red;
         font-weight: 500;
         font-size: 30px;
         text-align: center;
@@ -159,11 +166,28 @@
     }
 }
 
+.iconText{
+    opacity: 0;
+    position: fixed;
+    text-align: center;
+}
+
 .cardflex{
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-content: center;
+}
+
+.cardlinks{
+    grid-column: 2/6;
+    display: flex;
+    align-items: flex-start;
+}
+
+.icons{
+    border-radius: 3px;
 }
